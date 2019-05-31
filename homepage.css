@@ -1,0 +1,25 @@
+
+.logo {
+    float: left;
+}
+img{
+    padding: 1em;
+    border-radius: 25px;
+
+}
+.header {
+    clear: both;
+    text-align: center;
+    padding-top: 5em;
+    margin-right:7em;
+}
+.uk-flex {
+    background: #4D4DFF;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 3px;
+}
+.header-text {
+    color: white;
+    font-size: 1.3em;
+}
