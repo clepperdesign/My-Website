@@ -15,25 +15,49 @@ img{
     margin-right:7em;
 }
 .header-main {
-    background: #4D4DFF;
     margin-right: 10%;
     margin-left: 10%;
     border-radius: 3px;
 }
 .header-text {
-    color: white;
+    color: #0c0c0c;
     font-size: 1.3em;
     font-family: "Gill Sans", sans-serif;
 }
-/*Intro Section Styling*/
-.intro-main{
-    background: red;
+/*Nav Styling*/
+.nav{
     margin-right: 10%;
     margin-left: 10%;
+    background-color: navy;
+    margin-bottom: 0;
 }
-.intro-left{
-    background: blue;
-    padding-top: 1em;
-    padding-left: .5em;
-    padding-right: .5em;
+/*Intro Section Styling*/
+.intro-main{
+    clear: both;
+    text-align: center;
+    background-image: url('https://pixnio.com/free-images/2019/01/15/2019-01-15-10-07-40-1200x800.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-right: 10%;
+    margin-left: 10%; 
+    padding-top: 3%;
+}
+.intro-text-container{
+    background-color: black;
+    opacity: 0.85;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius:6px;
+}
+.intro-head{
+    font: bold;
+    font-size: 1.2em;
+    font-family: "Gill Sans", sans-serif;
+    color: lightskyblue;
+}
+.intro-body-text{
+    font-size: 1em;
+    font-family: "Gill Sans", sans-serif;
+    color: lightgray;
 }
