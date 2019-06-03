@@ -38,22 +38,29 @@ img{
     overflow: hidden;
     padding: 20px;
   }
+
+
 .nav-li {
     display: inline;
-    padding: 15px;
     margin-right: 30px;
     margin-left: 30px;
     background-color: #0c0c0c;
     border-radius: 10px;
-    
-  }
-.nav-li a{
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-li a, .nav-li a:hover{
     font-size: 1.2em;
     text-decoration:none;
+    padding-right: 50px;
+    padding-left: 50px;
+} 
+.nav-li:active{
+    background-color: salmon;
 }
+.nav-li a:active{
 
+}
 /*Intro Section Styling*/
 .intro-main{
     clear: both;
