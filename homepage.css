@@ -58,9 +58,14 @@ img{
 .nav-li:active{
     background-color: salmon;
 }
-.nav-li a:active{
-
+.selected{
+    background-color: #f7f5e1;
+    
 }
+.sel-text{
+    color: #0c0c0c;
+}
+/*End Nav Bar*/
 /*Intro Section Styling*/
 .intro-main{
     clear: both;
