@@ -1,12 +1,21 @@
 
+.margin {
+    margin-right: 10%;
+    margin-left:10%;
+}
+.center-content{
+    align-content: center;
+    text-align: center;
+}
+h1, h3, h4, p, a{
+    font-family: "Gill Sans", sans-serif;
+}
 /* Header Styling */
 .header-left {
     float: left;
 }
-img{
+.logo{
     padding: 1em;
-    border-radius: 25px;
-
 }
 .header-right {
     clear: both;
@@ -14,20 +23,13 @@ img{
     padding-top: 5em;
     margin-right:7em;
 }
-.header-main {
-    margin-right: 10%;
-    margin-left: 10%;
-    border-radius: 3px;
-}
 .header-text {
     color: #0c0c0c;
     font-size: 1.3em;
-    font-family: "Gill Sans", sans-serif;
+    
 }
 /*Nav Styling*/
 .nav{
-    margin-right: 10%;
-    margin-left: 10%;
     background-color: #475463;
     text-align: center;
 }
@@ -38,8 +40,6 @@ img{
     overflow: hidden;
     padding: 20px;
   }
-
-
 .nav-li {
     display: inline;
     margin-right: 30px;
@@ -60,7 +60,6 @@ img{
 }
 .selected{
     background-color: #f7f5e1;
-    
 }
 .sel-text{
     color: #0c0c0c;
@@ -73,9 +72,7 @@ img{
     background-image: url('https://pixnio.com/free-images/2019/01/15/2019-01-15-10-07-40-1200x800.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
-    margin-right: 10%;
-    margin-left: 10%; 
+    background-position: center; 
     padding-top: 3%;
 }
 .intro-text-container{
@@ -95,4 +92,11 @@ img{
     font-size: 1em;
     font-family: "Gill Sans", sans-serif;
     color: lightgray;
+}
+/* End Intro Styling */
+/*Services Section Styling*/
+.services-main{
+    padding-top: 8px;
+}
+.services-3{
 }
