@@ -9,6 +9,7 @@
 h1, h2, h3, h4, p, a{
     font-family: "Gill Sans", sans-serif;
 }
+
 /* Header Styling */
 .header-left {
     float: left;
@@ -60,10 +61,19 @@ h1, h2, h3, h4, p, a{
 }
 /*End Nav Bar*/
 /*Body Styling*/
+.github-text{
+    color: #f7f5e1;
+    display: inline-block; /*removes underline on hover!*/
+    text-decoration: none;
+    padding-top: 5.5%;
+}
+.github-text:hover{
+    color:#C4655A;
+}
 .github-logo{
     padding:10px 5px 5px 30px;
 }
 .view-github{
-    background-color: #475463;
+    background-color: #0c0c0c;
     margin-bottom: 5px;
 }
