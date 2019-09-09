@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" type="text/css" href="homepage.css">
+<link rel="stylesheet" type="text/css" href="main.css">
 <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
 
@@ -9,56 +9,72 @@
 <title>Clepper Design - Home</title>
 </head>
 <body>
+    <!--Nav Bar-->
+<div class='nav margin'>
+        <ul class='nav-ul'>
+            <li class='nav-li selected'><a href="homepage.html"><span class='sel-text'><b>Home</b></span></a></li>
+            <li class='nav-li'><a href="about.html">About</a></li>
+                <li class='nav-li'><a href="#">Portfolio</a></li>
+                <li class='nav-li'><a href="#">Contact</a></li> 
+              </ul> 
+</div>
+<!-- End Nav-->
 <div class = 'uk-flex uk-flex-center margin' > <!--Header-->
     <div class='header-left uk-width-1-3'>
         <img src ='C logo.png' class='logo' alt='Clepper Design Logo'>
     </div>
     <div class='header-right uk-width-2-3'>
-        <h1><span class='header-text'>Clepper Design Services</span> </h1>
+        <h2><span class='header-text'>Clepper Design Services</span> </h2>
+        <p><span>I am an artist and programmer with five years' experience as an IT administrative consultant, 
+                and a lifelong passion for all things creative. My areas of experience include HTML/CSS web design, 
+                website setup and GSuite integration, basic Python programming, and black & white line art. 
+                Click below to see my artwork and coding projects!
+            </span> </p>
     </div>
 </div>
 <!--End Header-->
-<!--Nav Bar-->
-<div class='nav margin'>
-        <ul class='nav-ul' title='main menu'>
-            <li class='nav-li selected'><a href="homepage.html"><span class='sel-text'><b>Home</b></span></a></li>
-                <li class='nav-li'><a href="about.html">About</a></li>
-                <li class='nav-li'><a href="#">Contact</a></li> 
-              </ul> 
-</div>
-<!-- End Nav-->
-<div class ='uk-flex intro-main margin'> <!--Intro-->
-    <div class = 'uk-width-1-1'>
-        <div class='intro-text-container'>
-        <h3><span class ='intro-head'>Simple and Smart Web Design Services</span></h3>
-        <p><span class='intro-body-text'>A successful web presence starts with user-friendly and aesthetically pleasing design. 
-            Looking to create your first website, or update an old site with a new look?
-            Contact me, and I can get your site set up, from front-end design to basic hosting assistance.
-        </span> </p>
-        </div>
-    </div>
-    </div>
-<!-- End Intro-->
+
 <!-- Services Section -->
 <div class ='uk-flex services-main margin'>
-    <div class='uk-width-1-3 center-content'>
-        <h4>Front-End Design</h4>
-        <img width='75%' alt ="Web Server Graphic" src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/791px-CSS3_and_HTML5_logos_and_wordmarks.svg.png'>
-        <p>Simple sites built from scratch, or elevated with templates from WordPress or Joomla. Existing sites redesigned within current frameworks.</p>
+    <div class='uk-width-1-3 center-content art-div'>
+    <center>
+        <h3>My Art</h3>
+        <img class ='art-block' src='crane-square.png' width=300 alt='snake and crane square'>
+    </center>
     </div>
-    <div class='uk-width-1-3'>
-        
+    <div class='uk-width-1-3 center-content program-div'>
+       <h3>My Programs</h3>
+       <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png' width=300 alt='python-logo'>
     </div>
-    <div class='uk-width-1-3 center-content'>
-        <h4>Web Hosting Assistance</h4>
-        <img width='41%' alt = "HTML and CSS Logos" src='https://cdn.pixabay.com/photo/2014/12/14/15/57/server-567944_960_720.png'>
-        <p>Back-end setup and maintenance services including domain registration, web host setup, and integration with business email services.</p>
-    </div>
+    <div class='uk-width-1-3 center-content about-div'>
+        <h3>About Me</h3>
+        <img class='about-block' src='C logo.png' width=300 alt='Clepper Design Logo'>
+     </div>
 </div> 
+
 <!-- End Services-->
 <!--Contact Button-->
-<div class='contact-main margin center-content'>
-    <h2><span class='contact-heading'>Interested? Get in touch!</span></h2>
+<!-- <div class='contact-main margin center-content'> -->
+        <div class ='uk-flex contact-main margin'> 
+        <div class = 'uk-width-1-1'>
+                <div class='contact-text-container'>
+    <h2><span class ='contact-head'>Interested? Get in touch!</span></h2>
     <a href ='#'><span class='contact-button'><b>Contact</b></span></a>
+    </div>
+    </div>
+</div>
+<div class ='uk-flex footer margin'>
+ <div class='uk-width-1-3'>
+     <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png' width=50 alt='Instagram Logo' href='https://www.instagram.com/coffee_skeleton/'>
+     <p><a href='https://www.instagram.com/coffee_skeleton/'><span class='footer-p'>@coffee_skeleton</span></a></p>
+ </div>
+ <div class='uk-width-1-3'>
+        <img src='GitHub-Mark-Light-64px.png' width=50 alt='GitHub logo'>
+        <p><a href=''><span class='footer-p'>clepperdesign</span></a></p>
+</div>
+<div class='uk-width-1-3'>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png' width=50 alt='email me'>
+            <p><a href='mailto:clepperdesignservices@gmail.com'></a><span class='footer-p'>clepperdesignservices@gmail.com</span></a></p>
+</div>
 </div>
 </body>
