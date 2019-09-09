@@ -1,3 +1,4 @@
+
 .margin {
     margin-right: 10%;
     margin-left:10%;
@@ -121,9 +122,15 @@ h1, h2, h3, h4, p, a{
     background-color: #0c0c0c;
     border-radius: 3px;
 }
+.program-div h3{
+    color: #f7f5e1;
+}
 .about-div{
     background-color: lightskyblue;
     border-radius: 3px;
+}
+.about-div a:hover{
+    text-decoration: none;
 }
 .about-block{
     border-radius:3px;
@@ -135,15 +142,29 @@ h1, h2, h3, h4, p, a{
     text-align: center;
     align-content: center;
     padding-top: 1%;
-    margin-top: 3%;
+    margin-top: 2%;
+    padding-bottom: 1%;
 }
-.footer-p{
+.footer-text{
     color:#f7f5e1;
+    text-decoration:none;
+    font-size: .9em;
+}
+.footer-hover a:hover{
+    text-decoration:none;
+}
+.footer-img{
+    width: 35px;
+    display: inline-block;
+
 }
 /*End Footer Styling */
 /*End Homepage Styling*/
 /*About Page Styling*/
 /*Body Styling*/
+.body-main{
+    margin-top: 1%;
+}
 .github-text{
     color: #f7f5e1;
     display: inline-block; /*removes underline on hover!*/
@@ -160,16 +181,14 @@ h1, h2, h3, h4, p, a{
     background-color: #0c0c0c;
     margin-bottom: 5px;
 }
+.about-main{
+    padding-top: 2%;
+}
+.about-text{
+    font-size: 1.2em;
+}
+.about-text a:hover{
+    text-decoration:none;
+}
 /*End About Styling*/
-/*Contact Page Styling*/
-.submit-button{
-    background:#e49289;
-    padding: 10px 25px 10px 25px;
-    font-size: 1em;
-    border-radius: 8px;
-    display: inline-block;
-}
-.submit-button:hover{
-    background:lightskyblue;
-    cursor: pointer;
-}
+
