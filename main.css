@@ -5,6 +5,9 @@
 .center-content{
     align-content: center;
     text-align: center;
+    padding-bottom: 2%;
+    margin-right: 2px;
+    margin-left:2px;
 }
 h1, h2, h3, h4, p, a{
     font-family: "Gill Sans", sans-serif;
@@ -18,7 +21,7 @@ h1, h2, h3, h4, p, a{
 }
 .header-right {
     clear: both;
-    padding-top: 5em;
+    padding-top: 2.5em;
     margin-right:7em;
 }
 .header-text {
@@ -60,8 +63,8 @@ h1, h2, h3, h4, p, a{
 }
 /*End Nav Bar*/
 /*Homepage Styling*/
-/*Intro Section Styling*/
-.intro-main{
+/*Contact Section Styling*/
+.contact-main{
     clear: both;
     text-align: center;
     background-image: url('https://pixnio.com/free-images/2019/01/15/2019-01-15-10-07-40-1200x800.jpg');
@@ -70,38 +73,25 @@ h1, h2, h3, h4, p, a{
     background-size: 100%;
     background-position: center; 
     padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 3px;
 }
-.intro-text-container{
+.contact-text-container{
     background-color: black;
     opacity: 0.90;
     margin-left: 15%;
     margin-right: 15%;
     border-radius:6px;
+    padding-bottom: 2%;
 }
-.intro-head{
+.contact-head{
     font: bold;
     font-size: 1.2em;
     color: lightskyblue;
 }
-.intro-body-text{
+.contact-body-text{
     font-size: 1em;
     color: lightgray;
-}
-/* End Intro Styling */
-/*Services Section Styling*/
-.services-main{
-    padding-top: 8px;
-}
-/*End Services Styling*/
-/*Contact Styling*/
-.contact-main{
-    background-color: #0c0c0c;
-    padding-bottom: 2%;
-    margin-bottom: 5px;
-}
-.contact-heading{
-    color: lightskyblue;
-    font-size: 1.5em;
 }
 .contact-button{
     background-color: #f7f5e1;
@@ -114,6 +104,43 @@ h1, h2, h3, h4, p, a{
 .contact-button:hover{
     background-color: #C4655A;
 }
+/* End Contact Styling */
+/*Services Section Styling*/
+.services-main{
+    padding-top: 8px;
+    margin-bottom: 1%;
+}
+.art-div{
+    background-color: lightskyblue;
+    border-radius: 3px;
+}
+.art-block{
+    border-radius: 3px;
+}
+.program-div{
+    background-color: #0c0c0c;
+    border-radius: 3px;
+}
+.about-div{
+    background-color: lightskyblue;
+    border-radius: 3px;
+}
+.about-block{
+    border-radius:3px;
+}
+/*End Services Styling*/
+/*Footer Styling */
+.footer {
+    background-color: #0c0c0c;
+    text-align: center;
+    align-content: center;
+    padding-top: 1%;
+    margin-top: 3%;
+}
+.footer-p{
+    color:#f7f5e1;
+}
+/*End Footer Styling */
 /*End Homepage Styling*/
 /*About Page Styling*/
 /*Body Styling*/
