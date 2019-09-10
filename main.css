@@ -1,4 +1,6 @@
-
+img {
+    border-radius: 3px;
+}
 .margin {
     margin-right: 10%;
     margin-left:10%;
@@ -9,6 +11,10 @@
     padding-bottom: 2%;
     margin-right: 2px;
     margin-left:2px;
+}
+.center-content-code{
+    align-content: center;
+    text-align: center;
 }
 h1, h2, h3, h4, p, a{
     font-family: "Gill Sans", sans-serif;
@@ -186,6 +192,7 @@ h1, h2, h3, h4, p, a{
 .view-github{
     background-color: #0c0c0c;
     margin-bottom: 5px;
+    margin-top: 2%;
 }
 .about-main{
     padding-top: 2%;
@@ -203,4 +210,44 @@ h1, h2, h3, h4, p, a{
 }
 .portfolio-header{
     margin-top:1%;
+}
+/* End Portfolio Styling */
+/*Code Detail Page */
+.code-header{
+    margin-top: 1%;
+}
+.code-main-1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.code-main-2{
+    margin-top: 1%;
+}
+.code-block-light{
+    background-color: lightskyblue;
+    border-radius: 3px;
+    padding-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #0c0c0c;
+}
+.code-block-light h3, .code-block-light p{
+    color: #0c0c0c;
+}
+.code-block-light a:hover, .code-block-dark a:hover{
+    text-decoration:none;
+}
+.code-block-dark{
+    background-color: #0c0c0c;
+    border-radius: 3px;
+    padding-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #f7f5e1;
+}
+.code-block-dark h3, .code-block-dark p{
+    color: #f7f5e1;
+}
+.code-block-dark p, .code-block-light p{
+    font-size: 1.08em;
 }
