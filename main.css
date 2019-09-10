@@ -115,12 +115,18 @@ h1, h2, h3, h4, p, a{
     background-color: lightskyblue;
     border-radius: 3px;
 }
+.art-div a:hover{
+    text-decoration: none;
+}
 .art-block{
     border-radius: 3px;
 }
 .program-div{
     background-color: #0c0c0c;
     border-radius: 3px;
+}
+.program-div a:hover{
+    text-decoration:none;
 }
 .program-div h3{
     color: #f7f5e1;
