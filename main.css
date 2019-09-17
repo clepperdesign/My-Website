@@ -12,7 +12,7 @@ img {
     margin-right: 2px;
     margin-left:2px;
 }
-.center-content-code{
+.center-content-detail{
     align-content: center;
     text-align: center;
 }
@@ -212,18 +212,18 @@ h1, h2, h3, h4, p, a{
     margin-top:1%;
 }
 /* End Portfolio Styling */
-/*Code Detail Page */
-.code-header{
+/*Portfolio Detail Page */
+.detail-header{
     margin-top: 1%;
 }
-.code-main-1{
+.detail-main-1{
     margin-top: 2%;
     margin-bottom: 1%;
 }
-.code-main-2{
+.detail-main-2{
     margin-top: 1%;
 }
-.code-block-light{
+.detail-block-light{
     background-color: lightskyblue;
     border-radius: 3px;
     padding-bottom: 2%;
@@ -231,13 +231,13 @@ h1, h2, h3, h4, p, a{
     margin-right: 1%;
     color: #0c0c0c;
 }
-.code-block-light h3, .code-block-light p{
+.detail-block-light h3, .detail-block-light p{
     color: #0c0c0c;
 }
-.code-block-light a:hover, .code-block-dark a:hover{
+.detail-block-light a:hover, .detail-block-dark a:hover{
     text-decoration:none;
 }
-.code-block-dark{
+.detail-block-dark{
     background-color: #0c0c0c;
     border-radius: 3px;
     padding-bottom: 2%;
@@ -245,9 +245,9 @@ h1, h2, h3, h4, p, a{
     margin-right: 1%;
     color: #f7f5e1;
 }
-.code-block-dark h3, .code-block-dark p{
+.detail-block-dark h3, .detail-block-dark p{
     color: #f7f5e1;
 }
-.code-block-dark p, .code-block-light p{
+.detail-block-dark p, .detail-block-light p{
     font-size: 1.08em;
 }
