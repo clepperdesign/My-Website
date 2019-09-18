@@ -251,3 +251,8 @@ h1, h2, h3, h4, p, a{
 .detail-block-dark p, .detail-block-light p{
     font-size: 1.08em;
 }
+/* Slideshow CSS */
+.slide-button{
+background-color: #0c0c0c;
+color: #f7f5e1;
+}
